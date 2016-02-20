@@ -1089,6 +1089,6 @@
 					padding-left: 0;
 				}
 				
-				.button.big a:hover {
-					color: orange;
+				.btn:focus {
+  					background-color: red;
 				}
