@@ -1088,3 +1088,15 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+/* button styles */
+.btn-primary, .btn-primary:focus { /* focus means AFTER clicked */
+    background: orange;
+} 
+
+.btn-primary:hover { /* when hovered */
+    background: orange;
+}
+
+.btn-primary:active { /* when clicked */
+     background: orange !important;
+}
