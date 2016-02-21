@@ -726,7 +726,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #3ba666;
-		border-radius: 4px;
+		border-radius: 0px;
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
@@ -744,14 +744,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #42b972;
+			background-color: orange;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #34935a;
+			background-color: orange;
 		}
 
 		input[type="submit"].icon,
