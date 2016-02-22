@@ -1,5 +1,6 @@
 p {
     font-size: 16px;
+    line-height: 30px;
 }
 
 /* navbar styles */
@@ -96,6 +97,7 @@ p {
 }
 /* end of navbar styles */
 
+/* homepage! */
 .width-75-85-90 {
     width: 75%;
 }
@@ -123,4 +125,8 @@ p {
 .homepage-desc {
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+.icon-large {
+    font-size: 140px;
 }
