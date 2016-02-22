@@ -1,4 +1,8 @@
 /* navbar styling */
+.navbar {
+    margin-bottom: 0px;
+}
+
 .navbar-default {
     background-color: #000000;
     border-color: #000000;
@@ -86,4 +90,10 @@
 
 .width-75-85-90 {
     width: 75%;
+}
+
+.jumbotron {
+    background-image: url("../images/banner.jpg");
+    color: white;
+    text-align: center;
 }
