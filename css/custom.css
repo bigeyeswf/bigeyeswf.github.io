@@ -130,3 +130,12 @@ p {
 .icon-large {
     font-size: 140px;
 }
+
+.leaderboard-text {
+    padding-bottom: 10px;
+}
+
+.homepage-column {
+    padding-left: 30px;
+    padding-right: 30px;
+}
