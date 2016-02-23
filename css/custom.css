@@ -102,6 +102,18 @@ p {
     width: 75%;
 }
 
+@media (max-width: 1200px) {
+    .width-75-85-90 {
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .width-75-85-90 {
+        width: 90%;
+    }
+}
+
 .jumbotron {
     background-image: url("../images/banner.jpg");
     color: white;
@@ -138,4 +150,8 @@ p {
 .homepage-column {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.footer-background {
+    background-color: black;
 }
