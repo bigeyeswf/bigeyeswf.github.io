@@ -106,11 +106,6 @@ p {
     .width-75-85-95 {
         width: 85%;
     }
-
-    .homepage-column {
-    padding-left: 0px;
-    padding-right: 0px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -154,12 +149,20 @@ p {
     padding-right: 30px;
 }
 
+@media (max-width: 1200px) {
+    .homepage-column {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 .footer-background {
     background-color: black;
 }
 
 .timer {
-    background-color: lightgray;
+    background-color: gray;
     padding-top: 10px;
     padding-bottom: 20px;
+    color: white;
 }
