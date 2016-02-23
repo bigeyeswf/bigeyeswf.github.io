@@ -98,12 +98,12 @@ p {
 /* end of navbar styles */
 
 /* homepage! */
-.width-75-85-90 {
+.width-75-85-95 {
     width: 75%;
 }
 
 @media (max-width: 1200px) {
-    .width-75-85-90 {
+    .width-75-85-95 {
         width: 85%;
     }
 
@@ -114,7 +114,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .width-75-85-90 {
+    .width-75-85-95 {
         width: 95%;
     }
 }
@@ -124,6 +124,7 @@ p {
     color: white;
     text-align: center;
     background-size: cover;
+    margin-bottom: 0px;
 }
 
 .btn-group-lg>.btn, .btn-lg {
@@ -144,10 +145,6 @@ p {
     margin-bottom: 50px;
 }
 
-.icon-large {
-    font-size: 140px;
-}
-
 .leaderboard-text {
     padding-bottom: 10px;
 }
@@ -159,4 +156,10 @@ p {
 
 .footer-background {
     background-color: black;
+}
+
+.timer {
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
