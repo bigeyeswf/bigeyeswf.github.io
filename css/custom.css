@@ -106,11 +106,16 @@ p {
     .width-75-85-90 {
         width: 85%;
     }
+
+    .homepage-column {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
 }
 
 @media (max-width: 768px) {
     .width-75-85-90 {
-        width: 90%;
+        width: 95%;
     }
 }
 
