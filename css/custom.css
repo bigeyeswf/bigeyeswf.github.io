@@ -157,11 +157,12 @@ p {
 }
 
 .footer-background {
-    background-color: black;
+    background-color: #2a2f33;
+    color: white;
 }
 
 .timer {
-    background-color: #2a2f33;
+    background-color: gray;
     padding-top: 10px;
     padding-bottom: 20px;
     color: white;
