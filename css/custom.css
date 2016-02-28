@@ -170,13 +170,6 @@ p {
     color: white;
 }
 
-.timer {
-    background-color: gray;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    color: white;
-}
-
 .jumbotron-small {
     background-image: url("../images/header.jpg");
     color: white;
