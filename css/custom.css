@@ -186,3 +186,20 @@ p {
 .registration-tweak {
     margin-top: -10px;
 }
+
+/* google form stuff */
+.google-form {
+    position: relative;
+    padding-bottom: 70%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-form iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* google form stuff */
