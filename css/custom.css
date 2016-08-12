@@ -230,3 +230,18 @@ footer {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+#tournament {
+    position: relative;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+#tournament p {
+    font-size: 200%;
+}
+
+#tournament a {
+    margin: 20px 20px;
+    font-size: 200%;
+}
