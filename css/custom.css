@@ -127,7 +127,7 @@ p {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    margin-top: 20px;
+    margin: 20px 20px;
     border-radius: 0px;
 }
 
@@ -229,6 +229,58 @@ footer {
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+#leaderboard {
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+#leaderboard table {
+  margin: 4% 2%;
+  padding: 2% 8% 4% 8%;
+  border: solid 1px lightblue;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  width: 70%;
+}
+
+#leaderboard tr {
+  display: table-row;
+  text-align: center;
+  vertical-align: inherit;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: #EEE;
+}
+
+#leaderboard th {
+    display: table-cell;
+    text-align: left;
+    vertical-align: inherit;
+    padding: 2% 10% 2% 4%;
+    margin: 4% 8% 0 0;
+}
+
+#leaderboard td {
+    display: table-cell;
+    text-align: left;
+    vertical-align: inherit;
+    padding: 2% 10% 2% 4%;
+    margin: 4% 8% 0 0;
+}
+
+#leaderboard a {
+  text-decoration: none;
+}
+
+#leaderboard a:hover {
+  text-decoration: none;
 }
 
 #tournament {
